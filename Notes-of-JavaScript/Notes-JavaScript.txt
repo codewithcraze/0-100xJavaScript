@@ -1,0 +1,516 @@
+1. What javascript can do?
+    a) javascript can change HTML content using .innerHTML tags.
+    b) javascript can change HTML attributes like .src = "https://images-link";
+    c) javascript can change CSS style like fontSize, backgroundColor, and many more like that.
+    d) javascipt can hide Html elements using doucment.getElementById("demo").style.display = "none";
+    e) javascript can show hidden Html elements whose display is none by using doucment.getElementById("demo").style.display = "block";
+
+2. Where to insert javascript.
+    a) Javascript in <head>
+    b) Javascript in <body> mostly at the end of the code.
+    c) Javascript  in external file.
+    d) javascript in an external url.
+    e) Javascript can be accessed from external folders.
+
+3. Javascript Output 
+    a) We can simply write in html by using document.write(anything);
+    b) We can write in Html elements too like document.getElementById("id").innerHTML = 450 + 562;
+    c) We can also write in window.alert("text") and window.alert(7 + 9);
+    d) We can write in console.log("text") and console.log(numbers); In a browser console.
+
+4. Javascript syntax
+    a)  javascipt statements: - Javascript is a list of statements to be executed by a computer.
+        like:-
+        var x,y,z;
+        x = 3;
+        y = 4;
+        z = x + y;
+        document.getElementById("demo").innerHTML = "The value of z is" + z + ".";
+        That's how we can execute several list of statements and can write the output in Html element.
+    b)  Javascript Numbers 
+        document.getElementById("demo").innerHTML = 10.50;
+        This is how we can write number in Html document
+    c)  Javascript strings
+        document.getElementById("demo").innerHTML = 'We can write string in html document in single quotes.'
+    d)  javascript variables
+        let x;
+        x = 34;
+        document.getElementById("demo").innerHTML = x;
+    e)  Javascript operators and javascipt expressions.
+        document.getElementById("demo").innerHTML = (34 * 323) + 562 - 56 /4;
+    f)  Assigning Javascript Values
+        let x;
+        X = 3;
+        let y;
+        y = 5;
+        let z = x + y;
+        document.getElementById("demo").innerHTML = z;
+    g)  Javascript expressions using string.
+        doucment.getElementById("demo").innerHTML = "Deepak" + " " + "Chaudhary";
+    h)  Javascript expressions using  variables
+        var x;
+        x = 45;
+        document.getElementById("demo").innerHTML = x * 33;  
+    i)  Javascript keywords
+        like: -
+        var - creating variables.
+        let - also for creating variables.
+        const - for declaring const.
+    j)  Javascript comments 
+            // is used as a comment in javascipt. /*Multiple line comment in Javascript*/
+            <!--comment--> this is used as comment in HTML.
+            /* comment */ this is used as comment in CSS.
+    k)  javascipt is a case sensitive
+        Peter and peter are two different name in javascipt because it is case sensitive.
+
+5. Javascript statements
+    a)  Statments are executed by browser.
+        doucment.getElementById("demo").innerHTML = "Hello World";
+        This statement is executed by browser.
+    b)  javascipt is a list of statements.
+        let x,y,z;
+        x = 5;
+        y = 4;
+        z = 2;
+        These are statements in javascipt. Basically javascipt is code of statements.
+    c)  javascipt statements are separated by semicolons.
+    d)  Mutiple statements are allowed in single line in javascipt.
+            let x = 34, y = 33, z;
+            z = x + y;
+            document.getElementById("demo").innerHTML = z;
+    e)  Javascript statements can be grouped inside blocks.
+
+6. Javascript Comments.
+    a)  Single line comments and single line comments at the end of the line. by using // double Baclslash
+    b)  Multiple line comments. /*mutiple line comments in javascript.*/
+    c)  Single line comments to prevent execution.
+        // document.getElementById("demo").innerHTML = x ;
+    d)  Multiple line comments to prevent execution
+        /*
+        var s;
+        s = 3;
+        var x;
+        x = 2;
+        var z;
+        z = s + x;
+        document.getElementById("demo").innerHTML = z;
+        */ 
+
+7. Javascript variables.
+    javascipt varibles.
+        var x = 34;
+        var y = 33;
+        var z;
+        z = x + y;
+        document.getElementById("demo").innerHTML = "The sum of the two number is " + z;  
+    javascipt varibales and strings.
+        const pi = 3.14;
+        let person = "Deepak Chaudhary";
+        let answer = "Yes I am";
+        documents.getElementById("demo").innerHTML = pi + "<br>" + person + "<br>" + answer; 
+    javascipt variables
+        declaring several variables in javascript.
+        let person = "deepak chaudhary", carname = "volvo", price = 1.5 M;
+    variable without any value is undefined.
+    re-declaring a variable doesn't destroyed the values.
+    adding numbers using javascript.
+    Adding strings.
+    Adding strings and numbers.
+
+8. Javascript Arithmetic.
+    Addition/ Subtraction/ Multiplication/ modulus/ increment/ decrement/.
+ 
+9. Javascript Assignments.
+        = , += (x = x + 4), -=, *= , /= , %= .
+
+10.Javascript string concatenation.
+        Adding two string using concatenation(+).
+        Adding two string with a space in first string 
+        Adding two string with a space in + "This for space" + 
+        Adding two string using += .
+            let text1 = "What a very";
+            text1 += "Difficult question that i see";
+            document.getElementById("demo").innerHTML = text1;
+        Adding string and numbers together.
+
+11.Javascript Data types
+        javascipt strings.
+        javascipt numbers.
+        javascipt an array.
+            let cars = ["TATA","Mahindra","Hyndai","Audi"];
+            document.getElementById("demo").innerHTML = cars[2]; // that's we can access array using javascript.
+        javascript objects.
+            const person = {
+                firstName: "Deepak",
+                age: "50",
+                eyeColor: "Dark"
+            };"
+            document.getElementById("demo").innerHTML = person.firstName + "is a good boy and his age is" + person.age + "and his eye color is " + eyeColor;
+        javascipt typeof "" - string. "john" - string. "22" - Number.
+        Adding numbers and string.
+            let x = 12 + 34 + " Deepak";
+            document.getElementById("demo").innerHTML = x;
+        Adding string and Number.
+            let x = " Deepak" + 34 + 31;
+            document.getElementById("demo").innerHTML = x;
+        If no value is defined to the variable than variable is called as undefined.
+        Empty varible.
+            const car = "";
+            document.getElementById("demo").innerHTML = "The car name is " + car + "<br>" + "The car type is " + typeof car;
+
+12.Javascript objects.
+    Create and display a variable.
+        let cars = "Audi";
+        document.getElementById("demo").innerHTML = cars;
+    Create an objects
+        let car = {
+            cartype: "sports",
+            price: 12 M,
+            brand: "Audi"
+        };
+    Create an object in single line and multiple lines.
+    Accessing object property using .property
+        like:- const car = {type: "sports"}
+                    document.getElementById("demo").innerHTML = car.type;// That's how we can access any objects property using (.)
+                    We can also access  by [] like: - car["type"];
+    Accesing object property by making function. Accessing function property as a method.
+        const person = {
+            firstName: "Deepak",
+            lastName: "Chaudahary",
+            age: "50",
+            fullName: function(){
+                return this.firstName + " " + this.lastName;
+            }
+            now you can call fullName by person.fullName().
+        } 
+    Accessing object property as a property
+        const person = {
+            firstName: "Deepak",
+            lastName: "Chaudahary",
+            age: "50",
+            fullName: function(){
+                return this.firstName + " " + this.lastName;
+            }
+            now you can call fullName by person.fullName.
+        } 
+
+13.Javascript Functions
+    A simple function.
+        <button type = "button" onclick = "myFunction()">Click Me!</button>
+        <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "This is Deepak Chaudhary";
+        }
+    Passing argument to function.
+        <button type = "button" onclick = "myFunction('Deepak','Full-Stack-Web-Developer')">Click Me!</button>
+        <script>
+            function myFunction(name,profession){
+                document.getElementById("demo").innerHTML = "The" + " " + name + "is a" + age; 
+            }
+    A function with an argument 2. 
+        <form> 
+        <input type = "button" value = "In the Morning" onclick = "myFunction('Good Morning!')">
+        <input type = "button" value = "In the Morning" onclick = "myFunction('Good Evening!')">
+        </form> 
+        <script> 
+ 	    function myFunction(txt){
+    	document.getElementById('demo').innerHTML = txt;
+        }
+        </script> 
+    A function that return a value.
+        function myFunction(a,b){
+            return a * b;
+        }
+        var x = myFunction(45,15);
+        document.getElementById("demo").innerHTML = x;
+    A function that convert fahernite to celcius.
+        function toCelcius(f){
+            return (5/9) * (f - 32);
+        }    
+        document.getElementById("demo").innerHTML = toCelcius(45);
+    A function without call () print the function as it is.
+
+14.Javascript Events 
+    changing html content using onclick
+        <button onclick = "document.getElementById("demo").innerHTML = Date().getHours()"> The Date </button>
+    Html elements changes it's content.
+        <button type="button" onclick = "this.innerHTML = Date()">
+
+15.Javascript Strings.
+    --> Strings can be written in single and double quotes.
+    --> More and more strings can be connect to eachother.
+    --> Backslash before quotes accept quotes as quotes in javascipt. /'
+    --> We can find the length of the string by using variable.length.
+    --> You can break text string using Backslash. "Deepak / 
+         chaudhary"
+    --> You can not break code with Backslash. / 
+         "Deepak Chaudhary"  -- Not Allowed
+    --> You can locate the string using indexOf();
+    --> Search for text in string and return the text. match(/ain/g) -- finding ain in the string      like this /search/g(for global.)
+    --> Replace the text of the string words.
+            <p id = "demo">Let's Work with javascipt </p>
+            <script>
+                let txt = document.getElementById("demo").innerHTML;
+                document.getElementById("demo").innerHTML = replace("javascipt","Html");
+            </script>
+    --> Convert string toUpperCase.
+    --> Convert strings toLowerCase.
+    --> You can split the string using split();
+
+16.Javascript Numbers.
+    --> Number can written with or without decimals.
+    --> Extra large or extra small numbers can be written with a scientific (exponent e) notation 152e3.
+    --> Integer numbers are accurate upto 15 digits.
+    --> Floating point arithmetic is not always 100% accurate.
+    --> But it can be helped by multiply and divided by 10.
+            (0.2*10 + 0.3*10)/10 that how we can remove the error.
+    --> If you add two numbers, the result will be number.
+            let x = 23;
+            let y = 34;
+            let z = x + y;
+            document.getElementById("demo").innerHTML = z;
+    --> Adding two strings result will be in concatenated string.
+    --> Adding string and number will result in concatenated string.
+            let x = 23;
+            let y = "38";
+            let z = x + y;
+            document.getElementById("demo").innerHTML = z;
+    --> Common error while adding numbers + x + y; 
+            <script>
+                let x = 10;
+                let y = 20;
+                let z = "30";
+                let result ="The answer is " + x + y + z; // result = 102030
+                let result = x + y + z; // result = 3030
+                let result = + x + y; // result 1020
+                document.getElementById("demo").innerHTML = result;
+            </script>
+                --> 
+    --> Javascript tries to convert Strings to numbers while dividing.
+    --> Javascript tries to convert strings to numbers while multiplying.
+    --> Javascript tries to convert strings to numbers while subtracting.
+    --> Javascript will not convert strings to numbers while adding.
+    --> A number divided by string is not a number NaN.
+    --> If you use NaN in a mathmatical operation, the result will also be NaN:
+    --> You can use the global Javascript function isNaN() to find out if a value is not a number.
+    --> If you use NaN in a mathmatical operation, the result can be a concatenation.
+            let x = NaN;
+            let y = "5";
+            now.innerHTML = x + y; // Result is NaN5.
+    --> The typeof NaN is a number. 
+    --> Infinity is return if you calculate a number outside the largest possible number.
+    --> Division by zero also generate infinity.
+    --> Infinity is a number typeof(Infinity) // result number.
+    --> Number can be objects.
+    --> Numbers and numbers object can't be safely compared.
+    --> Object and object can not be compared.
+
+17.Javascript Number Method.
+    --> valueOf() return the number to number x.valueOf(), (123).valueOf().
+    --> x.toExponential()
+    --> toFixed() - Round the number to the given number of digits.
+    --> toPrecision() - Return a number to given specified length. // give the specified length defined.
+    --> Number() - It convert variable to number.
+    --> Number() - This can also convert dates to number.
+    --> parseInt() - Convert string to number.
+    --> parseFloat() - It converts string to number.
+    --> Number.MAX_VALUE - It gives largest possible value of javascipt.
+    --> Number.MIN_VALUE - It gives the minimum value of javascipt.
+    --> Number.POSITIVE_INFINITY - It gives the positive infinity value.  
+    --> Number.POSITIVE_INFINITY - It gives you a infinity at overflow.
+    --> Number.NEGATIVE_INFINITY - represents negtive infinity.
+    --> Number.NEGATIVE_INFINITY - represents on overflow. // number/0 --> infinity.
+    --> NaN represents "Not-a-Number".
+    --> Arithmetic performed on a string gives NaN.
+    --> Using a number property on variable returns undefined.
+
+18.Javascript Maths.
+    --> Math.PI - return the value of pi
+    --> Math.round(x) - return the rounded value of x.
+    --> Math.pow(x,y) - return the value of x to the power of y.
+    --> Math.sqrt(x) - return the square of x.
+    --> Math.abs(x) - return the absolute postive value of x.
+    --> Math.ceil(x) - return the value of x of rounded up.
+    --> Math.floor(x) - return the value of x to rounded down.
+    --> Math.sin(x) - returns the sin of the angle x (given in radian.)
+            Math.sin(90*Math.PI/180) -- sin90.
+    --> Math.cos() - return the value of x in radian.
+    --> Math.max() - return the number with the highest value from a list of arguments.
+    --> Math.min() - return the number with the lowest value from a list arguments.
+    --> convert calcius to fahernite and vice versa 
+                <!DOCTYPE html>
+                <html>
+                <body>
+                
+                    <h2>JavaScript Celcius to Fahrenhet</h2>
+                    <p>Insert a number into one of the input fields below:</p>
+                    <p><input id="c" onkeyup="convert('C')"> degrees Celsius</p>
+                    <p><input id="f" onkeyup="convert('F')"> degrees Fahrenheit</p> 
+                    <p>Note that the <b>Math.round()</b> method is used, so that the result will be returned as an integer.<p>
+                    <script>
+                    function convert(degree){    
+                    var x;
+                    if (degree == "C") {
+                    x = document.getElementById("c").value * 9 / 5 + 32;
+                    document.getElementById("f").value = Math.round(x);
+                    } else {
+                    x = (document.getElementById("f").value -32) * 5 / 9;
+                    document.getElementById("c").value = Math.round(x);
+                    }
+                    }
+                </script>
+                
+                </body>
+                </html>
+
+19.JavaScript Random.
+    --> Math.random() - It gives any number between zero and 1.
+    --> Math.random()*10 - Create a random number between zero and 9.
+    --> Math.floor(Math.random() * 11); create any number between 0 and 10.
+    --> Math.floor(Math.random() * 100); create any number between 0 and 99.
+    --> Math.floor(Math.random() * 101); create any number betwwen 0 and 100.
+
+20.JavaScript Dates.
+    Date();
+    d.getFullYear();
+        let x = new Date().getFullYear();
+    d.getTime(); -- time in milliseconds from midnight of jan 1 1970.
+    d.setFullYear() set the year of date object.
+    d.toUTCString();
+    d.getDay(); return the week day in number.
+    For getting day in string
+        const d = new Date();
+        let day = days[d.getDay()];
+        now.innerHTML = day;
+
+21.JavaScript Arrays.
+    Simple array.
+        const cars = ["1","2","3","4"];
+        home.innerHTML = cars; // whole array will be accessed.
+        home.innerHTML = cars[1]; //second element of array gona exists.
+    Javascipt elements can be accessed using numeric indexes.
+    we can also change array elements const fruits = [elements] // fruits[0] = "kiwi";
+    We can access full array. 
+    Length property return the length of the array.
+    Array.isArray();
+    Fruits instanceof Array; // to check wheather it is array or not.
+
+22.Javascipt Array Methods.
+    Add an element to array push("element");
+    Remove an element to array pop() //  pop means to remove an element from the array.
+    In this we join the array join("*") // Banana * Orange * Apple * Mango.
+    array.concat("array"); // adding two arrays.
+    array.concat(array,array2); // adding three arrays.
+    fruits.splice(2,0, "","");
+    fruits.toString(); // convert an array to string.
+    fruits.unshift("element"); // adding element at the begining of the string.
+    fruits.shift() // Removing first element of the array.
+    fruits.slice(1,3) // getting element of the array at the particular position.
+
+23.Javascipt Array Sort.
+    sort() - This method sort an array in ascending order.
+    .sort() - .reverse(); 
+    sort number in ascending order
+        points.sort(function(a,b){ return a -b });
+    sort numbers in descending orders.
+        points.sort(function(a,b){ return a - b});
+    sort the smallest number
+        const points = ["1","7","87","5","58","100"];
+        points.sort(function(a,b){return a-b});
+        document.getElementById("demo").innerHTML = points[0] // finding smallest value in array.
+    sort the highest number.
+        const points = ["1","7","87","5","58","100"];
+        points.sort(function(a,b){return b-a});
+        document.getElementById("demo").innerHTML = points[0] // finding highest value in array.
+    
+24.Javascipt Array iteration.
+    Array.forEach() -- calling a function for each array. for each array.
+        const person = [];
+        let txt = "";
+        person.forEach(myFunction);
+
+        document.getElementById("demo").innerHTML = txt;
+
+        function myFunction(value, index, array){
+            txt += value + "<br>"
+        }
+    Create an array and perform an function on each array .map();
+        const person = [];
+        txt = "";
+        person.map(myFunction);
+
+        document.getElementById("demo").innerHTML = txt;
+
+        function myFunction(value, index, array){
+            return value * 2;
+        }
+    filter();
+        const person = [];
+        const over18 = person.filter(myFunction);
+
+        document.getElementById("demo").innerHTML = over18;
+        function myFunction(value, index, array){
+            return value > 18;
+        }
+    reduce() // for adding arrays values.
+    reduceRight(); // this iteration find the sum of the numbers.
+    every() // it checks every elements wheather it qualify the test or not.
+    some() // it checks wheather array value pass the test or not true/false.
+    indexOf() // This will find the of the array element.
+    lastIndexOf() // This will find the element from the last index.
+    find() // This will find the value above than any other.
+    findIndex() // This will find the index of the condition passed element.
+
+25.Javascipt Type Conversion.
+    Types of variables.
+        number 
+        string 
+        object 
+        boolen 
+        undefined.
+    .constructor this will return the constructor function.
+    String(here we write the number) // it converts the number into string.
+    Change the number using toString() // x.toString(); , (123).toString();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
