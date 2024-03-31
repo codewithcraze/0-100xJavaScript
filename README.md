@@ -1,2 +1,2 @@
-# Learn More advance concepts of Javascript.
+Learn More advance concepts of Javascript.
 
